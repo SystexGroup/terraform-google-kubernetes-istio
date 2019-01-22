@@ -14,7 +14,7 @@ variable "cluster_name" {
 
 variable "master_version" {
   description = "Kubernetes cluster master version"
-  default     = "lastest"
+  default     = "latest"
 }
 
 variable "master_username" {
