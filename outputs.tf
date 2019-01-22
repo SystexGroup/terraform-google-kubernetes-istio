@@ -41,7 +41,7 @@ preferences: {}
 users:
 - name: admin
   user:
-    password: ${var.master_username}
-    username: ${var.master_password}
+    password: ${var.master_password}
+    username: ${var.master_username}
 EOT
 }
