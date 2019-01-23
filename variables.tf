@@ -34,7 +34,7 @@ variable "cluster_region" {
 
 variable "helm_repository" {
   description = "Helm repository where the istio chart release is published"
-  default     = "https://richardalberto.github.io/terraform-google-kubernetes-istio"
+  default     = "https://storage.googleapis.com/istio-prerelease/daily-build/master-latest-daily/charts"
 }
 
 variable "istio_version" {
